@@ -1,0 +1,211 @@
+# vsim -sv_seed 1 -voptargs="+acc" -assertdebug -c testbench -do "log -r /*;run -all;" -l uart_lhs_baud_4800_test_1.log "+UVM_TESTNAME=uart_lhs_baud_4800_test" "+UVM_VERBOSITY=UVM_HIGH" 
+# Start time: 16:59:52 on Mar 22,2026
+# Loading /tmp/nyun@ubuntu_dpi_25931/linux_x86_64_gcc-7.4.0/export_tramp.so
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading sv_std.std
+# Loading work.uart_if(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.uart_pkg(fast)
+# Loading work.env_pkg(fast)
+# Loading work.seq_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.uart_if(fast__2)
+# Loading work.uart_dut(fast)
+# Compiling /tmp/nyun@ubuntu_dpi_25931/linux_x86_64_gcc-7.4.0/exportwrapper.c
+# Compiling /tmp/nyun@ubuntu_dpi_25931/linux_x86_64_gcc-9/exportwrapper.c
+# Loading /tmp/nyun@ubuntu_dpi_25931/linux_x86_64_gcc-9/vsim_auto_compile.so
+# log -r /*
+# run -all
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+# UVM_INFO @ 0: reporter [RNTST] Running test uart_lhs_baud_4800_test...
+# UVM_INFO ./../testcases/uart_base_test.sv(99) @ 0: uvm_test_top [uart_lhs_baud_4800_test] Entered build_phase
+# UVM_INFO ./../testcases/uart_base_test.sv(134) @ 0: uvm_test_top [uart_lhs_baud_4800_test] Exit build_phase
+# UVM_INFO ./../testcases/uart_lhs_baud_4800_test.sv(11) @ 0: uvm_test_top [build_phase] Entered
+# UVM_INFO ./../testcases/uart_lhs_baud_4800_test.sv(12) @ 0: uvm_test_top [uart_lhs_baud_4800_test] Running UART LHS baud 4800 test
+# UVM_INFO ./../testcases/uart_lhs_baud_4800_test.sv(37) @ 0: uvm_test_top [build_phase] Exiting
+# UVM_INFO ./../tb/uart_environment.sv(22) @ 0: uvm_test_top.uart_env [build_phase] Entered
+# UVM_INFO ./../tb/uart_environment.sv(52) @ 0: uvm_test_top.uart_env [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_agent.sv(18) @ 0: uvm_test_top.uart_env.uart_lhs_agent [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_agent.sv(28) @ 0: uvm_test_top.uart_env.uart_lhs_agent [uart_agent] Active agent is configued
+# UVM_INFO ./../uart_vip/uart_agent.sv(45) @ 0: uvm_test_top.uart_env.uart_lhs_agent [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_driver.sv(23) @ 0: uvm_test_top.uart_env.uart_lhs_agent.driver [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_driver.sv(31) @ 0: uvm_test_top.uart_env.uart_lhs_agent.driver [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_monitor.sv(23) @ 0: uvm_test_top.uart_env.uart_lhs_agent.monitor [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_monitor.sv(36) @ 0: uvm_test_top.uart_env.uart_lhs_agent.monitor [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_agent.sv(18) @ 0: uvm_test_top.uart_env.uart_rhs_agent [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_agent.sv(28) @ 0: uvm_test_top.uart_env.uart_rhs_agent [uart_agent] Active agent is configued
+# UVM_INFO ./../uart_vip/uart_agent.sv(45) @ 0: uvm_test_top.uart_env.uart_rhs_agent [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_driver.sv(23) @ 0: uvm_test_top.uart_env.uart_rhs_agent.driver [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_driver.sv(31) @ 0: uvm_test_top.uart_env.uart_rhs_agent.driver [build_phase] Exiting
+# UVM_INFO ./../uart_vip/uart_monitor.sv(23) @ 0: uvm_test_top.uart_env.uart_rhs_agent.monitor [build_phase] Entered
+# UVM_INFO ./../uart_vip/uart_monitor.sv(36) @ 0: uvm_test_top.uart_env.uart_rhs_agent.monitor [build_phase] Exiting
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------------------
+# Name                           Type                            Size  Value
+# --------------------------------------------------------------------------
+# uvm_test_top                   uart_lhs_baud_4800_test         -     @344 
+#   uart_env                     uart_environment                -     @361 
+#     scoreboard                 uart_scoreboard                 -     @395 
+#       lhs_driver_tx            uvm_analysis_imp_lhs_driver_tx  -     @404 
+#       lhs_monitor_rx           uvm_analysis_imp_lhs_rx         -     @434 
+#       lhs_monitor_tx           uvm_analysis_imp_lhs_tx         -     @424 
+#       rhs_driver_tx            uvm_analysis_imp_rhs_driver_tx  -     @414 
+#       rhs_monitor_rx           uvm_analysis_imp_rhs_rx         -     @454 
+#       rhs_monitor_tx           uvm_analysis_imp_rhs_tx         -     @444 
+#     uart_lhs_agent             uart_agent                      -     @464 
+#       driver                   uart_driver                     -     @640 
+#         item_observed_port     uvm_analysis_port               -     @669 
+#         rsp_port               uvm_analysis_port               -     @659 
+#         seq_item_port          uvm_seq_item_pull_port          -     @649 
+#       monitor                  uart_monitor                    -     @679 
+#         item_observed_port_rx  uvm_analysis_port               -     @698 
+#         item_observed_port_tx  uvm_analysis_port               -     @688 
+#       sequencer                uart_sequencer                  -     @503 
+#         rsp_export             uvm_analysis_export             -     @512 
+#         seq_item_export        uvm_seq_item_pull_imp           -     @630 
+#         arbitration_queue      array                           0     -    
+#         lock_queue             array                           0     -    
+#         num_last_reqs          integral                        32    'd1  
+#         num_last_rsps          integral                        32    'd1  
+#     uart_rhs_agent             uart_agent                      -     @473 
+#       driver                   uart_driver                     -     @877 
+#         item_observed_port     uvm_analysis_port               -     @906 
+#         rsp_port               uvm_analysis_port               -     @896 
+#         seq_item_port          uvm_seq_item_pull_port          -     @886 
+#       monitor                  uart_monitor                    -     @916 
+#         item_observed_port_rx  uvm_analysis_port               -     @935 
+#         item_observed_port_tx  uvm_analysis_port               -     @925 
+#       sequencer                uart_sequencer                  -     @740 
+#         rsp_export             uvm_analysis_export             -     @749 
+#         seq_item_export        uvm_seq_item_pull_imp           -     @867 
+#         arbitration_queue      array                           0     -    
+#         lock_queue             array                           0     -    
+#         num_last_reqs          integral                        32    'd1  
+#         num_last_rsps          integral                        32    'd1  
+# --------------------------------------------------------------------------
+# 
+# UVM_INFO ./../testcases/uart_lhs_baud_4800_test.sv(50) @ 0: uvm_test_top [uart_lhs_baud_4800_test] Starting sequence...
+# UVM_INFO ./../sequences/uart_sequence.sv(21) @ 0: uvm_test_top.uart_env.uart_lhs_agent.sequencer@@seq [uart_sequence] Send req: ---------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                             
+# ---------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @997                                              
+#   data                         integral          9     'b110111                                          
+#   begin_time                   time              64    0                                                 
+#   depth                        int               32    'd2                                               
+#   parent sequence (name)       string            3     seq                                               
+#   parent sequence (full name)  string            50    uvm_test_top.uart_env.uart_lhs_agent.sequencer.seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_lhs_agent.sequencer    
+# ---------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../uart_vip/uart_driver.sv(66) @ 0: uvm_test_top.uart_env.uart_lhs_agent.driver [UART_DRIVER] Driving txn:
+# ---------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                             
+# ---------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @997                                              
+#   data                         integral          9     'b110111                                          
+#   begin_time                   time              64    0                                                 
+#   depth                        int               32    'd2                                               
+#   parent sequence (name)       string            3     seq                                               
+#   parent sequence (full name)  string            50    uvm_test_top.uart_env.uart_lhs_agent.sequencer.seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_lhs_agent.sequencer    
+# ---------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(83) @ 1979163000: uvm_test_top.uart_env.scoreboard [uart_scoreboard] LHS MONITOR TX PORT:------------------------------------------
+# Name      Type              Size  Value   
+# ------------------------------------------
+# tx_trans  uart_transaction  -     @1009   
+#   data    integral          9     'b110111
+# ------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(110) @ 1979163000: uvm_test_top.uart_env.scoreboard [uart_scoreboard] RHS MONITOR RX  PORT:------------------------------------------
+# Name      Type              Size  Value   
+# ------------------------------------------
+# rx_trans  uart_transaction  -     @1013   
+#   data    integral          9     'b110111
+# ------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(66) @ 2083330000: uvm_test_top.uart_env.scoreboard [uart_scoreboard] LHS DRIVER PORT:---------------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                             
+# ---------------------------------------------------------------------------------------------------------
+# req                            uart_transaction  -     @997                                              
+#   data                         integral          9     'b110111                                          
+#   begin_time                   time              64    0                                                 
+#   depth                        int               32    'd2                                               
+#   parent sequence (name)       string            3     seq                                               
+#   parent sequence (full name)  string            50    uvm_test_top.uart_env.uart_lhs_agent.sequencer.seq
+#   sequencer                    string            46    uvm_test_top.uart_env.uart_lhs_agent.sequencer    
+# ---------------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ./../tb/uart_scoreboard.sv(127) @ 2083330000: uvm_test_top.uart_env.scoreboard [uart_scoreboard] Match data=37
+# UVM_INFO ./../testcases/uart_lhs_baud_4800_test.sv(67) @ 7083330000: uvm_test_top [uart_lhs_baud_4800_test] Test completed
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 7083330000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# ====================================
+#        ## TEST PASSED ##           
+# ====================================
+# UVM_INFO /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 7083330000: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   35
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [NO_DPI_TSTNAME]     1
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UART_DRIVER]     1
+# [UVM/COMP/NAMECHECK]     1
+# [UVM/RELNOTES]     1
+# [UVMTOP]     1
+# [build_phase]    16
+# [uart_agent]     2
+# [uart_lhs_baud_4800_test]     5
+# [uart_scoreboard]     4
+# [uart_sequence]     1
+# 
+# ** Note: $finish    : /usr/local/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 7083330 ns  Iteration: 68  Instance: /testbench
+# End time: 17:00:09 on Mar 22,2026, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
